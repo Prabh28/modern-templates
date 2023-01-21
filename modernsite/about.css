@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: monospace;
+}
+
+#supdiv{
+	background-color:#363636;
+	width:auto;
+	height:600px;
+	z-index: -10;
+}
+
+#nav-bar{
+	z-index: 10;
+	position: absolute;
+	top:0;
+	width: 1000px;
+	float: left;
+	margin-top:10px;
+}
+
+#nav-bar img{
+	float: left;
+	margin-right:300px;
+	margin-left:80px;
+	width:30px;
+	height: 30px;
+	margin-top:-6px;
+	border-radius: 100%;
+}
+	
+#nav-bar ul{
+	list-style: none;
+}
+#nav-bar ul li{
+	color:white;
+	margin-left:50px;
+	float: left;
+	transition: .1s linear;
+}
+
+#nav-bar ul li:hover{
+	text-decoration: underline;
+	opacity: .4;
+	margin-top:1px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+.fa-linkedin {
+  color: white;
+}
+
+#subnav{
+	float: left;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top:-10px;
+	z-index: 10;
+	margin-top:6px;
+	float: right;
+	margin-left:1160px;
+}
+#subnav ul{
+	list-style: none;
+	float: right;
+}
+#subnav li{
+	float: left;
+	transition: .1s linear;
+}
+
+#subnav li:hover{
+	opacity: .4;
+	margin-top:1px;
+}
+
+#main-body{
+	width:1000px;
+	height:600px;
+	position: absolute;
+	top: 0;
+	margin-top: 70px;
+	margin-left:150px;
+}
+
+#mb1{
+	background:white;
+	width:500px;
+	height:600px;
+	overflow: scroll;
+	float: left;
+}
+
+#mb2{
+	width:500px;
+	height:600px;
+	float:left;
+	background:darkgray;
+}
+ 
+#main-body img{
+	width:120px;
+	height:160px;
+	padding:5px 20px;
+	margin-top:40px;
+}
+table{
+	text-align: center;
+}
+#mb1 h1{
+	font-size: 50px;
+	margin-top:30px;
+	color:#363636;
+	margin-left:120px;
+}
+.mb2text,.mb2degn{
+	font-size:40px;
+	font-style: oblique;
+}
+.mb2degn{
+	color:#ff6600;
+}
+
+#submb2{
+	margin-top:120px;
+	margin-left:120px;
+}
+
+button{
+	background:#363636;
+	width:150px;
+	height:50px;
+	color:white;
+	border:none;
+	border-radius:4px;
+	font-size:14px;
+	transition:.3s;
+	padding:5px 15px;
+}
+button:hover{
+	transform: translateY(5px);
+	
+}

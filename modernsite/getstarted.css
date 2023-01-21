@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: monospace;
+}
+
+#supdiv{
+	background-color:#363636;
+	width:auto;
+	height:600px;
+	z-index: -10;
+}
+
+#nav-bar{
+	z-index: 10;
+	position: absolute;
+	top:0;
+	width: 1000px;
+	float: left;
+	margin-top:10px;
+}
+
+#nav-bar img{
+	float: left;
+	margin-right:300px;
+	margin-left:80px;
+	width:30px;
+	height: 30px;
+	margin-top:-6px;
+	border-radius: 100%;
+}
+	
+#nav-bar ul{
+	list-style: none;
+}
+#nav-bar ul li{
+	color:white;
+	margin-left:50px;
+	float: left;
+	transition: .1s linear;
+}
+
+#nav-bar ul li:hover{
+	text-decoration: underline;
+	opacity: .4;
+	margin-top:1px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+.fa-linkedin {
+  color: white;
+}
+
+#subnav{
+	float: left;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top:-10px;
+	z-index: 10;
+	margin-top:6px;
+	float: right;
+	margin-left:1160px;
+}
+#subnav ul{
+	list-style: none;
+	float: right;
+}
+#subnav li{
+	float: left;
+	transition: .1s linear;
+}
+
+#subnav li:hover{
+	opacity: .4;
+	margin-top:1px;
+}
+
+#main-body{
+	width:1000px;
+	height:600px;
+	position: absolute;
+	top: 0;
+	margin-top: 70px;
+	margin-left:150px;
+}
+
+#mb1{
+	background:linear-gradient(to right, white, whitesmoke);
+	width:500px;
+	height:600px;
+	float: left;
+}
+
+#mb2{
+	width:500px;
+	height:600px;
+	float:left;
+	background:linear-gradient(to right , whitesmoke , darkgray 100% );
+}
+#mb1 h1{
+	margin-top:120px;
+	margin-left:20px;
+	font-size:50px;
+}
+#mb1 p{
+	font-size:18px;
+	margin-left:20px;
+}
+.pap{
+	margin-left:20px;
+}
+
+#mb1 button{
+	background:black;
+	width:130px;
+	height: 40px;
+	color:white;,
+	font-size:14px;
+	border:none;
+	opacity: 1;
+	margin-left:20px;
+	margin-top:40px;
+	transition: .4s ease;
+}
+
+#mb1 button:hover{
+	border-radius:10px;
+	transform: translateX(5px);
+	background: rgba(0, 0, 0, 0.7);
+}
+
+#information{
+	padding-top:40px;
+	padding-left:40px;
+	padding-bottom:40px;
+	margin-right:20px;
+	height:350px;
+	background:rgba(0,0,0,.8);
+	margin-top:100px;
+}
+
+#information h1{
+	color:white;
+	font-size:42px;
+}
+
+#information table{
+	color:white;
+	padding:4px 4px;
+	text-align: left;
+	font-size:14px;
+}	
+
+#information td{
+	font-size:14px;
+}
+
+#information th{
+	padding-right:20px;
+}
+
+#infofn,#infoln,#infomail,#infonum,#mesage{
+	background: dimgray;
+	border:none;
+	color:white;
+	width:180px;
+	font-size:16px;
+	padding:2px 5px;
+	margin-bottom:10px;
+}
+#gend{
+	margin-right:4px;
+	margin-bottom:10px;
+}
+#information label{
+	margin-right:15px;
+}
+
+#continent{
+	background: dimgray;
+	color:white;
+	border:1px solid dimgray;
+	font-size:14px;
+	margin-bottom:10px;
+	width:180px;
+	border-radius:0px;
+
+}
+
+#information textarea{
+	background:dimgray;
+	font-size:14px;
+}
+
+#infosub{
+	background:#363636;
+	width:110px;
+	height: 40px;
+	color:white;,
+	/*margin-top:100px;*/
+	font-size:14px;
+	border:none;
+	opacity: 1;
+	transition: .4s ease;
+}
+
+#infosub:hover{
+	border-radius:10px;
+	background: rgba(255,255, 255, 0.5);
+	transform: translateX(5px);
+	color:black;
+}
+
+.loader {
+  border: 16px solid rgba(255, 255, 255, .7);
+  border-radius: 50%;
+  border-top: 16px solid dimgray;
+  width: 80px;
+  height: 80px;
+  margin-top:110px;
+  margin-left:120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  display: none;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#aftloadmsg{
+	color:white;
+	font-size:18px;
+	font-style: oblique;
+	display: none;
+}
+.your-class::-webkit-input-placeholder{
+	color:red;
+	font-size:10px;
+}
+
+#aftloadmsg button{
+	width:auto;
+	height:40px;
+	padding:5px 15px;
+	border:none;
+	border-radius:2px;
+	font-size:12px;
+	margin:10px 120px;
+	transition:.5s;
+}
+#aftloadmsg button:hover{
+	transform: translateY(10px);
+}
